@@ -1,0 +1,10 @@
+.can-i-do-card{
+    margin: 30px auto;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
