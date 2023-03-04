@@ -1,0 +1,29 @@
+hr {
+    width: 100%;
+    max-width: 900px;
+}
+.my-project {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.no-limit-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    gap: 50px;
+    align-items: center;
+}
+.no-limit-img {
+    width: 100%;
+    max-width: 250px;
+}
+.second-p {
+    display: flex;
+    align-items: center;
+}
