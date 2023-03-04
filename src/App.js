@@ -11,9 +11,7 @@ import NinthComponent from './components/NinthComponent/NinthComponent';
 import TenthComponent from './components/TenthComponent/TenthComponent';
 
 function App() {
-
-
-  return (
+return (
     <div className="App">
         <TenthComponent />
         <NinthComponent />
