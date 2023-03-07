@@ -1,8 +1,8 @@
-import "./seventhComponent.style.css";
+import "./projektComponent.style.css";
 import noLimit from "../../assets/logo3.png";
 import secondProject from "../../assets/logo-min-512.png";
 
-    const SeventhComponent = () => {
+    const ProjektComponent = () => {
         return (
             <div className="my-projects">
                 <hr />
@@ -21,4 +21,4 @@ import secondProject from "../../assets/logo-min-512.png";
             </div>
         )
     }
-    export default SeventhComponent;
+    export default ProjektComponent;

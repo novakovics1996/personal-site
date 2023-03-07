@@ -1,7 +1,7 @@
-import "./fifthComponent.style.css";
+import "./aboutComponent.style.css";
 import photo from "../../assets/1.jpg"
 
-    const FifthComponent = () => {
+    const AboutComponent = () => {
         return (
             <div className="about-name">
                 
@@ -17,4 +17,4 @@ import photo from "../../assets/1.jpg"
             </div>
         )
     }
-    export default FifthComponent;
+    export default AboutComponent;

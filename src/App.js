@@ -1,28 +1,20 @@
 import './App.css';
+import AboutComponent from './components/AboutComponent/AboutComponent';
+import IdoComponent from './components/IdoComponent/IdoComponent';
+import ProjektComponent from './components/ProjektComponent/ProjektComponent';
+import ContactComponent from './components/ContactComponent/ContactComponent';
 import FirstComponent from './components/FirstComponent/FirstComponent';
-import SecondComponent from './components/SecondComponent/SecondComponent';
-import ThirdComponent from './components/ThirdComponent/ThirdComponent';
-import FourthComponent from './components/FourthComponent/FourthComponent';
-import FifthComponent from './components/FifthComponent/FifthComponent';
-import SixthComponent from './components/SixthComponent/SixthComponent';
-import SeventhComponent from './components/SeventhComponent/SeventhComponent';
-import EightComponent from './components/EightComponent/EightComponent';
-import NinthComponent from './components/NinthComponent/NinthComponent';
-import TenthComponent from './components/TenthComponent/TenthComponent';
+import NavComponent from './components/NavComponent/NavComponent';
 
 function App() {
 return (
     <div className="App">
-        <TenthComponent />
-        <NinthComponent />
-        <FirstComponent />
-        <SecondComponent />
-        <ThirdComponent />
-        <FourthComponent />
-        <FifthComponent />
-        <SixthComponent />
-        <SeventhComponent />
-        <EightComponent title={titile} number={numeroUno} />
+        <NavComponent />
+        <FirstComponent />        
+        <AboutComponent />
+        <IdoComponent />
+        <ProjektComponent />
+        <ContactComponent />
     </div>
   );
 }

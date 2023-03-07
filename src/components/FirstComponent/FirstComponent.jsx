@@ -1,12 +1,15 @@
 import "./firstComponent.style.css";
 
-const FirstComponent = () => {
+    const FirstComponent = () => {
+        return(
+            <div className="background-img-card">
 
-    return (
-        <div className="parentFirst">
-            <p>Ovo je first komponenta</p>
-        </div>
-    )
-}
-
-export default FirstComponent;
+                <div className="title-background">
+                    <h1 className="background-h1">" WELCOME PEOPLE "</h1>
+                    <h3 className="background-h1">Hello, I'm Slavisa :) <br /> Frontend Developer and if you want to here <br /> more about me scroll down</h3>
+                </div>
+                
+            </div>
+        )
+    }
+    export default FirstComponent;

@@ -1,7 +1,7 @@
-import "./tenthComponent.style.css";
+import "./navComponent.style.css";
 import arrow from "../../assets/arrow-button.gif";
 
-    const TenthComponent = () => {
+    const NavComponent = () => {
         return(
             <div class="meni-tag">
             <div class="card-tag-img">
@@ -17,4 +17,4 @@ import arrow from "../../assets/arrow-button.gif";
           </div>
         )
     }
-    export default TenthComponent;
+    export default NavComponent;

@@ -1,10 +1,10 @@
-import "./eightComponent.style.css";
+import "./contactComponent.style.css";
 import facebook from "../../assets/icons8-facebook-24.png";
 import instagram from "../../assets/icons8-instagram-24.png";
 import linkedin from "../../assets/icons8-linkedin-24.png";
 import mail from "../../assets/icons8-mail-account-24.png";
 
-    const EightComponent = () => {
+    const ContactComponent = () => {
         return (
             <div className="footer-card">
                 <h2 className="h2-footer title-h3">How to contact me:</h2>
@@ -26,4 +26,4 @@ import mail from "../../assets/icons8-mail-account-24.png";
             </div>
         )
     }
-    export default EightComponent;
+    export default ContactComponent;

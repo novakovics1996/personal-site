@@ -1,7 +1,7 @@
-import "./sixthComponent.style.css";
+import "./idoComponent.style.css";
 import toolLogo from "../../assets/2.png";
 
-    const SixthComponent = () => {
+    const IdoComponent = () => {
         return (
             
             <div className="can-i-do-card">
@@ -14,4 +14,4 @@ import toolLogo from "../../assets/2.png";
         )
     }
 
-    export default SixthComponent;
+    export default IdoComponent;
